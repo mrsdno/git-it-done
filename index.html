@@ -19,7 +19,7 @@
   </header>
 
 
-  <main class="flex-row justify-space-around">
+  <main class="flex-row justify-space-between">
     <div class="col-12 col-md-4">
       <div class="card">
         <h3 class="card-header text-uppercase">Search By User</h3>
@@ -29,8 +29,18 @@
           <button type="submit" class="btn">Get User</button>
         </form>
       </div>
+      <!-- lanaguage buttons -->
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search By Topic</h3>
+        <div id="language-buttons" class="card-body">
+          <button data-language="javascript" type="submit" class="btn">JavaScript</button>
+          <button data-language="html" type="submit" class="btn">HTML</button>
+          <button data-language="css" type="submit" class="btn">CSS</button>
+        </form>
+        </div>
+      </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-8">
       <h2 class="subtitle">
         Showing Reposititories for: <span id="repo-search-term"></span>
       </h2>
